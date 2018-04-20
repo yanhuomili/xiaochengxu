@@ -1,0 +1,20 @@
+<view class='news'>
+    <scroll-view class='scroll-box' scroll-y bindscrolltoupper='toup' bindscrolltolower='tobot' scroll-top='100'>
+        <view>
+          <image src='../../img/2-2.png'></image>
+        </view>
+        <view>
+          <image src='../../img/2-2.png'></image>
+        </view>
+        <view>
+          <image src='../../img/2-2.png'></image>
+        </view>
+        <view>
+          <image src='../../img/2-2.png'></image>
+        </view>
+        <view>
+          <image src='../../img/2-2.png'></image>
+        </view>
+    </scroll-view>
+
+</view>

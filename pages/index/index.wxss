@@ -1,0 +1,37 @@
+.banner image{
+  width: 100%
+}
+.list{
+  width: 100%;
+  padding: 40rpx 15rpx;
+  
+}
+.list .list-item{
+  display: flex;
+  margin: 30rpx 0;
+
+}
+.list-item image{
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: 15rpx;
+}
+.item-right{
+  flex: 1;
+}
+.item-right .title{
+  font-size: 32rpx;
+}
+.item-right .text-content{
+  font-size: 28rpx;
+  line-height: 1.5;
+  color: #666;
+}
+
+.tip{
+  width: 100%;
+  padding: 30rpx;
+  text-align: center;
+  background: #f9f9f9;
+  font-size: 32rpx;
+}

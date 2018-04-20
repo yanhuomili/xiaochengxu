@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/news/news",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/about/about"
+  ],
+  "window": {
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle": "#fff",
+    "backgroundColor": "#000000"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#f80",
+    "backgroundColor": "#f8f8f8",
+    "borderStyle": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/index.png",
+        "selectedIconPath": "img/index-active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "img/about.png",
+        "selectedIconPath": "img/about-active.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻中心",
+        "iconPath": "img/news.png",
+        "selectedIconPath": "img/news-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "img/my.png",
+        "selectedIconPath": "img/my-active.png"
+      }
+    ]
+  }
+}

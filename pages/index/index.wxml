@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+    <view class='banner'>
+        <swiper indicator-dots='true' indicator-active-color='#1296db' autoplay='true' interval='2000'>
+            <swiper-item><image src='../../img/2-2.png'></image></swiper-item>
+            <swiper-item><image src='../../img/2-3.png'></image></swiper-item>
+            <swiper-item><image src='../../img/2-8.png'></image></swiper-item>
+        </swiper>
+    </view>
+    <view class='list'>
+        <view class='list-item' wx:for="{{dataList}}" wx:key="">
+            <image src='../../img/2-12.png'></image>
+            <view class='item-right'>
+                <text class='title'>{{item.title}}</text>
+                <text class='text-content'>
+                    {{item.text}}
+                </text>
+            </view>
+        </view>
+    </view>
+    <view class='tip' wx:if="{{noData}}">数据加载完毕...</view>
+</view>
